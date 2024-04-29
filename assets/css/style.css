@@ -1,0 +1,258 @@
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+}
+
+.bg_header {
+  background: url(../images/webp/header-bg.webp);
+  background-size: cover;
+  background-position: center;
+}
+.nav_btn {
+  padding: 12px 30.3px;
+  box-shadow: 0px 2px 10px 0px #00000026;
+  border-radius: 50px;
+}
+.nav_btn:hover {
+  background-color: black;
+}
+.transition_300 {
+  transition: 300ms linear;
+}
+.header_logo {
+  max-width: 241px;
+}
+.main_heading {
+  max-width: 792px;
+}
+.main_pera {
+  max-width: 720px;
+}
+.pb_header {
+  padding-bottom: 159px;
+}
+.know_btn:hover {
+  background-color: black;
+}
+.invest_btn {
+  height: 48px;
+  width: 147px;
+  white-space: nowrap;
+}
+.invest_btn:hover {
+  background: white;
+  color: black !important;
+  border: 1px solid black !important;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+/* ------------------------------- AI GPU ---------------------------- */
+.ai_gpu_spacing {
+  margin-top: 150px;
+}
+.ai_gpu_heading {
+  max-width: 500px;
+}
+.ai_chart {
+  max-width: 610px;
+  box-shadow: 0px 11px 26.7px 0px #0000001f;
+}
+/* ------------------------------- Why invest ----------------------- */
+.why_invest_spacing {
+  margin-top: 191px;
+  margin-bottom: 117px;
+}
+.invest_card {
+  max-width: 364px;
+  border: 1px solid #cdcdcd;
+  border-radius: 12px;
+}
+.invest_card:hover {
+  transform: scale(0.9);
+}
+.invest_logo {
+  max-width: 272px;
+}
+.yahoo_logo {
+  margin-left: -35px;
+}
+.patient_pera {
+  max-width: 320px;
+}
+.cnbc_logo {
+  max-width: 219px;
+}
+/* ------------------------------- Latest News -------------------- */
+.latest_news_spacing {
+  padding-top: 118px;
+  padding-bottom: 66px;
+}
+.scale_hover:hover {
+  transform: scale(0.9);
+}
+.latest_new_nvidia,
+.nvindia_stock_prize {
+  max-width: 534px;
+}
+.news_explore {
+  max-width: 585px;
+}
+.money_card {
+  max-width: 1007px;
+  transform: translateY(-50%);
+  border-radius: 24px;
+  box-shadow: 0px 20px 50.5px 0px #0000001a;
+}
+.money_control {
+  max-width: 252px;
+}
+.mw_analysts {
+  max-width: 849px;
+}
+/* ------------------------------ Reason to buy -------------------- */
+.reason_buy {
+  max-width: 547px;
+}
+.op_70 {
+  color: #4d4d4d;
+}
+.gpu_maker {
+  max-width: 540px;
+}
+.read_btn {
+  box-shadow: 0px 2px 10px 0px #00000026;
+  text-decoration: underline !important;
+  padding: 12px 30px;
+  border-radius: 58px;
+  width: 182px;
+  white-space: nowrap;
+}
+
+.read_btn:hover {
+  background-color: black !important;
+}
+.nasdaq_img {
+  max-width: 400px;
+  box-shadow: 0px 15px 52.1px 0px #0000001f;
+}
+.motely_card {
+  max-width: 216px;
+  padding: 20px 19.38px;
+  border-radius: 12.45px;
+  right: -23%;
+  bottom: -11%;
+}
+.motely_logo {
+  max-width: 167px;
+}
+.mobile_motley {
+  max-width: 206px;
+}
+/* -------------------------------footer----------------------- */
+.emprowering {
+  max-width: 261px;
+}
+.social_icons {
+  max-width: 35px;
+  cursor: pointer;
+}
+.social_icons:hover {
+  transform: scale(1.1);
+}
+.footer_line {
+  min-height: 1px;
+  background-color: #b7b7b7;
+  width: 100%;
+  display: flex;
+}
+/* -------------------------------- media quaries ------------------ */
+@media (max-width: 1199.98px) {
+  .ai_gpu_spacing {
+    margin-top: 100px;
+  }
+  .latest_news_spacing {
+    padding-top: 100px;
+  }
+  .pb_header {
+    padding-bottom: 100px;
+  }
+  .ai_chart {
+    max-width: 560px;
+  }
+  .why_invest_spacing {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .xl_500 {
+    max-width: 480px;
+  }
+  .money_card {
+    transform: translateY(-30%);
+  }
+}
+@media (max-width: 991.98px) {
+  .xl_500 {
+    max-width: 780px;
+  }
+  .latest_news_spacing {
+    padding-top: 80px;
+  }
+  .ai_gpu_heading {
+    max-width: 100%;
+  }
+  .ai_chart {
+    max-width: 530px;
+  }
+  .invest_card {
+    max-width: 100%;
+  }
+  .money_card {
+    max-width: 1007px;
+    transform: translateY(-30%);
+  }
+
+  .why_invest_spacing,
+  .ai_gpu_spacing {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .header_logo {
+    max-width: 201px;
+  }
+}
+@media (max-width: 767.98px) {
+  .invest_logo {
+    max-width: 252px;
+  }
+  .why_invest_spacing {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .latest_news_spacing {
+    padding-top: 60px;
+    padding-bottom: 45px;
+  }
+}
+@media (max-width: 575.98px) {
+  .money_card {
+    transform: translateY(-15%);
+  }
+  .ai_chart {
+    max-width: 100%;
+  }
+  .why_invest_spacing,
+  .ai_gpu_spacing {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .header_logo {
+    max-width: 180px;
+  }
+  .cnbc_logo {
+    max-width: 180px;
+  }
+  .latest_news_spacing {
+    padding-top: 45px;
+  }
+}
